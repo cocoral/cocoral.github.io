@@ -5,26 +5,26 @@
 font-family: 'Avenir';
 font-style: normal;
 font-weight: 200;
-src: url('/assets/fonts/AvenirLTStd-Light.woff') format('woff');
+src: url('../assets/fonts/AvenirLTStd-Light.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Avenir';
 font-style: normal;
 font-weight: 400;
-src: url('/assets/fonts/AvenirLTStd-Medium.woff') format('woff');
+src: url('../assets/fonts/AvenirLTStd-Medium.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Avenir';
 font-style: oblique;
 font-weight: 400;
-src: url('/assets/fonts/AvenirLTStd-MediumOblique.woff') format('woff');
+src: url('../assets/fonts/AvenirLTStd-MediumOblique.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Avenir';
 font-style: normal;
 font-weight: 600;
-src: url('/assets/fonts/AvenirLTStd-Black.woff') format('woff');
+src: url('../assets/fonts/AvenirLTStd-Black.woff') format('woff');
 }
