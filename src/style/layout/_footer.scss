@@ -1,0 +1,11 @@
+footer{
+	padding: 10px 15px;
+	background-color: $almostblack;
+	color:$white;
+	.social-links{display: inline-block;}
+	.svg-icon__github{
+		fill:$white;
+		width: 20px;
+		height:20px;
+	}
+}

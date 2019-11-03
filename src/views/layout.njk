@@ -13,6 +13,9 @@
 </head>
 
 <body class="{% block body_class %}{% endblock %}">
+
+		{% include "./components/svg-sprites.njk" %}
+
     {% block content %}
     {% endblock %}
     <script type="text/javascript" src="/app.bundle.js"></script>

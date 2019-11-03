@@ -1,36 +1,10 @@
-// import LazyLoad from "vanilla-lazyload";
+import Rellax from "rellax";
 
-// const logEvent = (eventName, element) => {
-//   console.log(
-//     Date.now(),
-//     eventName,
-//     element.getAttribute("data-src"),
-//     element.getAttribute("src")
-//   );
-// };
 
-// const lazyLoadOptions = {
-//   elements_selector: ".lazy",
-//   to_webp: true,
+const init = () =>{
+	setTimeout(()=>{
+	var rellax = new Rellax('.rellax');
 
-//   callback_enter: element => {
-//     logEvent("ENTERED", element);
-//   },
-//   callback_load: element => {
-//     logEvent("LOADED", element);
-//   },
-//   callback_set: element => {
-//     logEvent("SET", element);
-//   },
-//   callback_error: element => {
-//     logEvent("ERROR", element);
-//   }
-// };
-
-// const createLazyLoadInstance = () => {
-//   return new LazyLoad(lazyLoadOptions);
-// };
-
-export default () => {
-  console.log("yolo")
-};
+	},0)
+}
+export default init;

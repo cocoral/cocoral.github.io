@@ -1,0 +1,24 @@
+.card-three-row{
+	@include bp-desktop {
+		display: flex;
+		.card{
+			margin-left: 2%;
+			width: 32%;	
+			&:first-child{
+				margin-left: 0;
+			}
+		}
+	}
+	.svg-icon{
+		max-height: 60px;
+		max-width: 100px;
+		fill:$color-primary;
+	}
+}
+
+.card{
+	margin-top: 10px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	background-color: $white;
+}

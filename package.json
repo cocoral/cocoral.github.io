@@ -1,7 +1,7 @@
 {
-    "name": "indivior-sublocade-patient-redesign",
+    "name": "coral-portfolio-site-2019",
     "version": "1.0.0",
-    "description": "Initial build of the Indivior Sublocade Patient redeign.",
+    "description": "Coral's portfolio site 2019",
     "private": true,
     "main": "index.js",
     "scripts": {
@@ -12,14 +12,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KlickInc/indivior-sublocade-patient-redesign"
+        "url": ""
     },
-    "author": "Coral He [Klick Health]",
+    "author": "Coral He",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/KlickInc/indivior-sublocade-patient-redesign/issues"
+        "url": ""
     },
-    "homepage": "https://github.com/KlickInc/indivior-sublocade-patient-redesign#readme",
+    "homepage": "",
     "devDependencies": {
         "@babel/core": "^7.4.3",
         "@babel/preset-env": "^7.4.3",
@@ -46,6 +46,7 @@
         "webpack-merge": "^4.2.2"
     },
     "dependencies": {
+        "rellax": "^1.10.0",
         "vanilla-lazyload": "^12.1.0"
     },
     "browserslist": [

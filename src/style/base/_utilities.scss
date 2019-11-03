@@ -11,6 +11,11 @@
 .bg-secondary{ background-color: $color-secondary; }
 .bg-tertiary{ background-color: $color-tertiary; }
 
+.deco-left{
+  border-left: 4px solid $color-secondary;
+  padding-left: 30px;
+}
+
 // Accessibility
 .sr-only {
   position: absolute;
