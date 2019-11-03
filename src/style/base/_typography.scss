@@ -1,0 +1,89 @@
+/************************/
+/****   Typography    ***/
+/************************/
+
+a {
+  font-family: $body-font;
+  text-decoration: underline;
+  color: $color-primary;
+
+  &:hover {
+    text-decoration: none;
+    color: darken($color-primary, 10%);
+  }
+}
+
+b,
+strong {
+  font-family: $body-font;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $futura;
+  margin: 0 0 20px 0;
+
+  b,
+  strong {
+    font-family: $futuraBold;
+  }
+}
+
+h1 {
+  font-family: $righteous;
+  font-size: map-get($font-size-mobile, h1);
+  @include bp-desktop {
+    font-size: map-get($font-size-desktop, h1);
+  }
+}
+
+h2 {
+  font-family: $righteous;
+  font-size: map-get($font-size-mobile, h2);
+  @include bp-desktop {
+    font-size: map-get($font-size-desktop, h2);
+  }
+}
+
+h3 {
+  font-family: $righteous;
+  font-size: map-get($font-size-mobile, h3);
+  @include bp-desktop {
+    font-size: map-get($font-size-desktop, h3);
+  }
+
+}
+
+h4 {
+  font-size: map-get($font-size-mobile, h4);
+  @include bp-desktop {
+    font-size: map-get($font-size-desktop, h4);
+  }
+}
+
+h5 {
+  font-size: map-get($font-size-mobile, h5);
+  @include bp-desktop {
+    font-size: map-get($font-size-desktop, h5);
+  }
+}
+
+h6 {
+  font-size: map-get($font-size-mobile, h6);
+  @include bp-desktop {
+    font-size: map-get($font-size-desktop, h6);
+  }
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+p:last-child{
+  margin-bottom: 0;
+}

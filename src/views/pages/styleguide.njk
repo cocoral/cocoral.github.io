@@ -1,0 +1,119 @@
+{% extends "../layout.njk" %}
+
+{% block body_class %}styleguide{% endblock %}
+
+{% block content %}
+<main class="">
+  <section class="section">
+    <div class="container">
+      <h1>Style Guide</h1>
+      <p>This page contains all the front-end components that will be used in the Suboxone Consumer website.</p>
+      <p>Refer to the following sections below to see how to implement common components to avoid having to re-write code.</p>
+      <a href='/'>go home</a>
+    </div>
+  </section>
+  <section class="section-blue">
+    <div class="container">
+      <h2>Typography</h2>
+
+      <h1>H1 Heading</h1>
+      <h2>H2 Heading</h2>
+      <h3>H3 Heading</h3>
+      <h4>H4 Heading</h4>
+      <p>p: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eaque expedita hic, labore error optio similique, officiis pariatur sed? 
+        <span class="color-secondary">Color can be changed with class color-secondary</span>
+        <span class="color-tertiary">and color-tertiary, </span>
+        <span class="color-quaternary bg-primary">color-quaternary.</span>
+      </p>
+
+      <p><strong>Bolded text exmaple</strong></p>
+
+      <p><em>Italicized text example</em></p>
+      <p>Regular links: <a href="/">Back to home</a>.</p>
+    </div>
+  </section>
+  <section class="section">
+      <div class="container">
+        <h2>Grid</h2>
+        <div class="example-grid docs-example">
+        <div class="row mb-10">
+          <div class="one column bg-secondary color-white">One</div>
+          <div class="eleven columns bg-secondary color-white">Eleven</div>
+        </div>
+        <div class="row mb-10">
+          <div class="two columns bg-secondary color-white">Two</div>
+          <div class="ten columns bg-secondary color-white">Ten</div>
+        </div>
+        <div class="row mb-10">
+          <div class="three columns bg-secondary color-white">Three</div>
+          <div class="nine columns bg-secondary color-white">Nine</div>
+        </div>
+        <div class="row mb-10">
+          <div class="four columns bg-secondary color-white">Four</div>
+          <div class="eight columns bg-secondary color-white">Eight</div>
+        </div>
+        <div class="row mb-10">
+          <div class="five columns bg-secondary color-white">Five</div>
+          <div class="seven columns bg-secondary color-white">Seven</div>
+        </div>
+        <div class="row mb-10">
+          <div class="six columns bg-secondary color-white">Six</div>
+          <div class="six columns bg-secondary color-white">Six</div>
+        </div>
+        <div class="row mb-10">
+          <div class="seven columns bg-secondary color-white">Seven</div>
+          <div class="five columns bg-secondary color-white">Five</div>
+        </div>
+        <div class="row mb-10">
+          <div class="eight columns bg-secondary color-white">Eight</div>
+          <div class="four  columns bg-secondary color-white">Four</div>
+        </div>
+        <div class="row mb-10">
+          <div class="nine columns bg-secondary color-white">Nine</div>
+          <div class="three columns bg-secondary color-white">Three</div>
+        </div>
+        <div class="row mb-10">
+          <div class="ten columns bg-secondary color-white">Ten</div>
+          <div class="two columns bg-secondary color-white">Two</div>
+        </div>
+        <div class="row mb-10">
+          <div class="eleven columns bg-secondary color-white">Eleven</div>
+          <div class="one column bg-secondary color-white">One</div>
+        </div>
+        <div class="row mb-10">
+          <div class="one-third column bg-secondary color-white">One-third</div>
+          <div class="two-thirds column bg-secondary color-white">Two-thirds</div>
+        </div>
+        <div class="row mb-10">
+          <div class="one-half column bg-secondary color-white">One-half</div>
+          <div class="one-half column bg-secondary color-white">One-half</div>
+        </div>
+        <div class="row mb-10">
+          <div class="offset-by-four eight columns bg-secondary color-white">Offset by four columns</div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+  <section class="section-pull-up section-grey pb-0">
+    <div class="container">
+      <p>This is the section-pull-up.</p>
+      <p class="section-pull-up--pre-title">
+        Opioid addiction
+      </p>
+      <h1 class="section-pull-up--title">About opioid addiction</h1>
+    </div>
+    <div class="section-pull-up--image driving-guy">
+      <!-- background image -->
+    </div>
+    <div class="container">
+      <div class="section-pull-up--text bg-primary-trans">
+        <h2>Opioid addiction is not a weakness, it's a disease. </h2>
+        <p>Living with opioid addiction, also called Opioid Use Disorder (OUD), can leave people feeling trapped. That's because opioids "hijack" the brain and change how it normally functions and processes reward.</p>
+        <p>Knowing why quitting is so hard can help when you're ready to <a href="#TODO" class="color-white">consider treatment</a>. </p>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock %}

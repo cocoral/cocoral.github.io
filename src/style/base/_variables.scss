@@ -1,0 +1,90 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Basic colors
+$white: #ffffff;
+$whiteGrey: #f0f0f0;
+$grey:#E7E4DF;
+$almostblack:#312928;
+
+$lightBlue: #E7F2F9;
+$aqua: #8AEAE8;
+$aquaLight: #F1FBFC;
+$punch: #D93E82;
+$canary:#F9B81F;
+
+// Regular font family
+// @type List
+$body-font: 'Avenir', Arial, sans-serif !default;
+$righteous: 'Righteous', Arial, sans-serif;
+$futura: 'Futura', Arial, sans-serif;
+$futuraLight: 'FuturaLightCondensed', Arial, sans-serif;
+$futuraBold: 'FuturaBoldCondensed', Arial, sans-serif;
+
+
+//Typography
+$font-size-desktop: (
+  h1: 48px,
+  h2: 38px,
+  h3: 20px,
+  h4: 16px,
+  h5: 16px,
+  h6: 16px,
+  body: 16px,
+  small: 11px);
+
+$font-size-mobile: (
+  h1: 32px,
+  h2: 26px,
+  h3: 24px,
+  h4: 20px,
+  h5: 13px,
+  h6: 13px,
+  body: 13px,
+  small: 11px);
+
+$line-height: (
+  h1: 1.12,
+  h2: 1.13,
+  h3: 1.2,
+  h4: 1.25,
+  h5: 1.25,
+  h6: 1.25,
+  body: 1.25,
+  small: 1.18);
+
+// Copy text color
+// @type Color
+$text-color: $almostblack;
+
+// Main brand color
+// @type Color
+$color-primary: $punch;
+$color-secondary: $canary;
+$color-tertiary: $aqua;
+
+// Container's maximum width
+// @type Length
+$max-width: 1024px !default;
+$container-width: 820px;
+
+// Breakpoints map
+// @prop {String} keys - Keys are identifiers mapped to a given length
+// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: ('xs': 320px,
+  'phone': 480px,
+  'sm': 768px,
+  'md': 992px,
+  'lg': 1200px);
+
+
+// Paths
+
+// Usage: url('#{map-get($path,hero)}/FILENAME.png');
+$path: (image: '/assets/img',
+  icon: '/assets/img/icons',
+  shared: '/assets/shared',
+  home: '/assets/img/home',
+  about: '/assets/img/about'
+);

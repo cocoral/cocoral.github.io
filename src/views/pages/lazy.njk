@@ -1,0 +1,98 @@
+{% extends "../layout.njk" %}
+
+{% block body_class %}lazy{% endblock %}
+
+{% block content %}
+<main class="">
+  <section class="content-wrapper">
+    <h1>lazyload</h1>
+    <a href='/'>go home</a>
+    <ul>
+    <li>
+      <a href="#">
+        <img alt="Stivaletti" src="https://placehold.it/220x280?text=01.jpg"
+          srcset="https://placehold.it/220x280?text=01.jpg 1x, https://placehold.it/440x560?text=01.jpg 2x" width="220"
+          height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Open toe" data-src="https://placehold.it/220x280?text=02.jpg"
+          data-srcset="https://placehold.it/220x280?text=02.jpg 1x, https://placehold.it/440x560?text=02.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Sneakers &amp; Tennis" data-src="https://placehold.it/220x280?text=03.jpg"
+          data-srcset="https://placehold.it/220x280?text=03.jpg 1x, https://placehold.it/440x560?text=03.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Sneakers &amp; Tennis shoes basse" data-src="https://placehold.it/220x280?text=04.jpg"
+          data-srcset="https://placehold.it/220x280?text=04.jpg 1x, https://placehold.it/440x560?text=04.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Sneakers &amp; Tennis shoes alte" data-src="https://placehold.it/220x280?text=05.jpg"
+          data-srcset="https://placehold.it/220x280?text=05.jpg 1x, https://placehold.it/440x560?text=05.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Sneakers &amp; Tennis shoes alte" data-src="https://placehold.it/220x280?text=06.jpg"
+          data-srcset="https://placehold.it/220x280?text=06.jpg 1x, https://placehold.it/440x560?text=06.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Sneakers &amp; Tennis shoes basse" data-src="https://placehold.it/220x280?text=07.jpg"
+          data-srcset="https://placehold.it/220x280?text=07.jpg 1x, https://placehold.it/440x560?text=07.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Sneakers &amp; Tennis shoes basse" data-src="https://placehold.it/220x280?text=08.jpg"
+          data-srcset="https://placehold.it/220x280?text=08.jpg 1x, https://placehold.it/440x560?text=08.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <img class="lazy" alt="A lazy image" src="../../assets/img/home/hero-thumb.jpg"
+      data-src="../../assets/img/home/hero.jpg">
+    <img class="lazy" alt="A lazy image" src="../../assets/img/home/section-1-bg-thumb.jpg"
+      data-src="../../assets/img/home/section-1-bg.jpg">
+    <img class="lazy" alt="A lazy image" src="../../assets/img/home/section-2-bg-thumb.jpg"
+      data-src="../../assets/img/home/section-2-bg.jpg">
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Stivali" data-src="https://placehold.it/220x280?text=09.jpg"
+          data-srcset="https://placehold.it/220x280?text=09.jpg 1x, https://placehold.it/440x560?text=09.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Stivali" data-src="https://placehold.it/220x280?text=10.jpg"
+          data-srcset="https://placehold.it/220x280?text=10.jpg 1x, https://placehold.it/440x560?text=10.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="lazy" alt="Stivaletti" data-src="https://placehold.it/220x280?text=11.jpg"
+          data-srcset="https://placehold.it/220x280?text=11.jpg 1x, https://placehold.it/440x560?text=11.jpg 2x"
+          width="220" height="280">
+      </a>
+    </li>
+    </ul>
+  </section>
+</main>
+{% endblock %}

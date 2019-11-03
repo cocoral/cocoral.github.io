@@ -1,0 +1,116 @@
+.cover{
+  text-align: center;
+  height: 100vh;
+  padding-top: 0; 
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .cover-text{position: relative;
+    z-index: 10;
+  }
+  .visual{
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+  }
+  .fore-ground{
+    z-index: 9
+  }
+
+  .cube{
+    &__primary,
+    &__secondary,
+    &__tertiary{
+      position: absolute;
+      transform: rotate(45deg);
+    }
+    &__primary{
+      background-color: $color-primary;
+    }
+    &__secondary{
+      background-color: $color-secondary;
+    }
+    &__tertiary{
+      background-color: $color-tertiary;
+    }
+    &-sm{
+      width: 30px;
+      height: 30px;
+      z-index: 6;
+    }
+    &-md{
+      width: 60px;
+      height: 60px;
+      z-index: 7;
+
+    }
+    &-lg{
+      width: 115px;
+      height: 115px;
+      z-index: 8;
+    }
+    &-xl{
+      width: 160px;
+      height: 160px;
+      z-index: 9;
+    }
+  }
+
+  .cube-x{
+    right: 16%;
+    bottom: -20px;
+  }
+
+  .cube-y{
+    bottom: 10%;
+    left: 15%;
+  }
+
+  .cube-z{
+    top: -30%;
+    left: 35%;
+  }
+
+  .cube-a{
+    top: 30%;
+    right: 89%;
+  }
+
+  .cube-b{
+    top: 10%;
+    left: 92%;
+  }
+  .cube-e{
+    top: 8%;
+    right: 5%;
+  }
+  .cube-d{
+    top: 23%;
+    left: 11%;
+  }
+
+  .cube-c{
+    top: 48%;
+    left: 87%;
+  }
+
+
+  .cube-f{
+    top: 52%;
+    right: 83%;
+  }
+
+  .cube-g{
+    top: 15%;
+    left: 22%;
+  }
+  .cube-h{
+    top: 85%;
+    right: 8%;
+  }
+
+}
+
