@@ -24,6 +24,7 @@ section, .section{
   }
 
   &__wide{
+    padding: 0 11px;
     @include bp-desktop {
       max-width: $max-width;
     }

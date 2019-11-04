@@ -16,6 +16,30 @@
   padding-left: 30px;
 }
 
+.deco-diamond{
+  position: relative;
+  padding-left: 30px;
+  &:before{
+    content:"";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0px;
+    top:5px;
+    background-color: $color-secondary;
+  }
+}
+
+.deco-diamond__blue{
+  @extend .deco-diamond;
+  &:before{
+    background-color: $color-tertiary;
+  }
+}
+
+
 // Accessibility
 .sr-only {
   position: absolute;
