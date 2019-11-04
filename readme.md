@@ -1,6 +1,6 @@
 # Coral's portfolio site 2019
 
-This projesct is based on [static HTML Webpack Boilerplate] (https://github.com/erickzhao/static-html-webpack-boilerplate) and modified with nunjucks templates. 
+This projesct is based on [static HTML Webpack Boilerplate](https://github.com/erickzhao/static-html-webpack-boilerplate) and modified with nunjucks templates. 
 
 [Demo page](cocoral.github.io/dist)
 
