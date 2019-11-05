@@ -15,10 +15,6 @@ This projesct is based on [static HTML Webpack Boilerplate](https://github.com/e
 npm install
 ```
 
-# Setup / Configuration
-
-There are no other issues/watchouts to consider in setting up and configuring this project.
-
 # Development
 
 To get the dev environment on local, run:
@@ -37,21 +33,18 @@ This builds the `/dist` folder.
 
 # Deployment
 
-## Locally
+## Checking build files Locally
 
 ```bash
 npm run start:prod
 ```
 This should open up `http://localhost:8080` in your browser with web server serving `/dist`. 
 
-## Staging
-
-todo
-
 
 ## Production
 
-todo
+Push to github
+
 
 # Getting Started / Contributing 
 
@@ -67,10 +60,6 @@ Generally, class names should follow a BEM approach.
 Js source files are stored in `src/js`.
 ES6 will be compild to ES5 by webpack.
 
-
-# Known Issues / Bugs
-
-  - None at this time
 
 # Changelog
 
